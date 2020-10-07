@@ -20,6 +20,11 @@ to activate the virtual environment.
 Note: FLASK_ENV determines the environment that you will be running the API. Setting it to  `development` will cause the python interpreter to output debug information to the client.
 DO NOT, I REPEAT, DO NOT RUN FLASK ON DEVELOPMENT MODE IF YOU ARE DEPLOYING THE SERVER AS THIS WILL ALLOW EVERYONE TO SEE DEBUG INFORMATION FROM THE SERVER!
 
+
+## Returning to work
+
+When going back to work, make sure that you pull from the `main` repository(no longer called `origin`) or any repository discussed later. Always set the environment variables FLASK_APP and FLASK_ENV and start the python virtual environment before running `flask run`.
+
 Other than that, happy coding!!!
 
 
