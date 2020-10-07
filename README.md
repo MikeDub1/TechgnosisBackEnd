@@ -23,7 +23,7 @@ DO NOT, I REPEAT, DO NOT RUN FLASK ON DEVELOPMENT MODE IF YOU ARE DEPLOYING THE 
 
 ## Returning to work
 
-When going back to work, make sure that you pull from the `main` repository(no longer called `origin`) or any repository discussed later. Always set the environment variables FLASK_APP and FLASK_ENV and start the python virtual environment before running `flask run`.
+When going back to work, make sure that you pull from the `main` repository(no longer called `master`) or any repository discussed later. Always set the environment variables FLASK_APP and FLASK_ENV and start the python virtual environment before running `flask run`.
 
 Other than that, happy coding!!!
 
