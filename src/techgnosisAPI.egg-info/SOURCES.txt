@@ -1,0 +1,8 @@
+setup.py
+techgnosisAPI/FirebaseCrudUsers.py
+techgnosisAPI/__init__.py
+techgnosisAPI.egg-info/PKG-INFO
+techgnosisAPI.egg-info/SOURCES.txt
+techgnosisAPI.egg-info/dependency_links.txt
+techgnosisAPI.egg-info/requires.txt
+techgnosisAPI.egg-info/top_level.txt
