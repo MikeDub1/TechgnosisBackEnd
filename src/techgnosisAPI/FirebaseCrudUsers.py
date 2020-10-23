@@ -21,7 +21,8 @@ def createUser():
 
         users = mongodb.db.users
         hashpass = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())
-        users.insert({'First Name':fname, 'Last Name':lname,'Email':email, 'Username':uname, 'DOB':date_of_birth, 'Country of Residence':country_of_residence, 'Password': hashpass})
+        users.insert({'First Name':fname, 'Last Name':lname,'Email':email, 'Username':uname, 'DOB':date_of_birth, 'Country of Residence':country_of_residence, 'Password': hashpass, "Online": "Active"})
+
 
 
 
@@ -29,4 +30,6 @@ def createUser():
         return FirebaseError.cause
 
     return Response(status=200)
+
+
 
